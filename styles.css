@@ -3,6 +3,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  overflow-x: hidden; 
+}
 
 header {
     background-color: #003366;
@@ -580,22 +591,45 @@ footer {
       width: 100%;  /* Ensure images are responsive */
     }
   
-    /* How it works section */
+    #how-it-works h2 {
+      font-size: 2rem;  /* Slightly smaller header */
+      text-align: center;
+    }
+  
     .process-grid {
       grid-template-columns: 1fr;  /* Stack columns for mobile */
+      gap: 20px;
     }
   
     .text-tile h3 {
-      font-size: 1.5rem;
+      font-size: 1.4rem;  /* Smaller heading */
     }
   
     .text-tile p {
-      font-size: 0.9rem;
+      font-size: 0.9rem;  /* Smaller description */
     }
   
-    /* Founder Section Styling */
+    /* Founder Section */
+    .founders-grid {
+      grid-template-columns: 1fr;  /* Stack founder tiles into one column */
+      gap: 20px;  /* Add some space between founder tiles */
+    }
+  
+    .founder-tile {
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .founder-img {
+      width: 120px;  /* Smaller image size */
+      height: 120px;
+      margin-bottom: 10px;
+    }
+  
     .founder-description {
-      font-size: 0.9rem;
+      font-size: 0.8rem;  /* Smaller font for descriptions */
+      max-width: 90%;  /* Ensure it fits well within the tile */
+      margin: 0 auto;
     }
   }
   
