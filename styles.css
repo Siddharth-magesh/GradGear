@@ -469,3 +469,133 @@ footer {
     margin-bottom: 0;
   }
   
+
+  @media (max-width: 768px) {
+    /* Header */
+    header {
+      padding: 15px 5%;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header .logo-img {
+      height: 30px;  /* Adjust logo size for mobile */
+      width: 45px;
+      margin-bottom: 10px;
+    }
+  
+    header .company-name {
+      font-size: 1.5rem;  /* Reduce font size for mobile */
+      letter-spacing: 1px;
+    }
+  
+    header nav {
+      margin-top: 20px;
+    }
+  
+    header nav a {
+      font-size: 1rem;
+      margin: 0 10px;
+    }
+  
+    /* Hero Section */
+    .hero-section h1 {
+      font-size: 2.5rem;  /* Reduce font size */
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 12px 25px;
+    }
+  
+    /* About Us Section */
+    #about h2 {
+      font-size: 2.5rem;  /* Smaller font size */
+    }
+  
+    .about-text {
+      font-size: 1rem;
+      max-width: 90%;
+    }
+  
+    /* Services Section */
+    #services h2 {
+      font-size: 2rem;  /* Adjust header size */
+    }
+  
+    .features {
+      grid-template-columns: 1fr;  /* Stack features vertically */
+    }
+  
+    .feature {
+      padding: 15px;
+    }
+  
+    .feature h3 {
+      font-size: 1.5rem;
+    }
+  
+    /* Footer */
+    footer {
+      padding: 30px 5%;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  
+    .social-icon {
+      font-size: 1.5rem;  /* Adjust icon size */
+    }
+  
+    /* Founder Section */
+    .founders-grid {
+      grid-template-columns: 1fr 1fr;  /* Two columns for mobile */
+    }
+  
+    .founder-img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .founder-tile {
+      padding: 15px;
+    }
+  
+    /* Process Section */
+    .process-grid {
+      grid-template-columns: 1fr;  /* One column for mobile */
+    }
+  
+    .image-tile img {
+      width: 100%;  /* Ensure images are responsive */
+    }
+  
+    /* How it works section */
+    .process-grid {
+      grid-template-columns: 1fr;  /* Stack columns for mobile */
+    }
+  
+    .text-tile h3 {
+      font-size: 1.5rem;
+    }
+  
+    .text-tile p {
+      font-size: 0.9rem;
+    }
+  
+    /* Founder Section Styling */
+    .founder-description {
+      font-size: 0.9rem;
+    }
+  }
+  
