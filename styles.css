@@ -283,11 +283,16 @@ footer {
     text-decoration: underline;
   }
   
-  .footer-column .social-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+  .social-icon {
+    font-size: 2rem;  /* Adjust the size of the icons */
+    color: #fff;      /* Color for the icons */
+    margin: 0 10px;   /* Spacing between icons */
+    transition: color 0.3s ease;
   }
+  
+  .social-icon:hover {
+    color: #007bff;  /* Change color on hover */
+  }  
   
   .footer-bottom {
     text-align: center;
@@ -295,12 +300,6 @@ footer {
     border-top: 1px solid #0073e6;
     padding-top: 15px;
     font-size: 0.9rem;
-  }
-
-  .social-icon {
-    width: 24px;
-    height: 24px;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
   }
 
 /* Section styling */
